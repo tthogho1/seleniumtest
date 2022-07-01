@@ -1,0 +1,14 @@
+[ 
+	[		
+		{"func" : "print","name":"","value": "0 : ログイン画面" },
+		{"func" : "send","name":"webid","value": "xxxx" },
+		{"func" : "send","name":"pass","value": "xxxxx" }
+	],
+	[
+		{"func" : "print","name":"","value": "1 : サービス画面" },
+		{"func" : "send","name":"l_name_kanji","value": "XX" },
+		{"func" : "select","name":"birthEra","value": "4" },
+		{"func" : "radio","name":"sex","value": "1" },
+		{"func" : "sleep","name":"","value": "2" }
+	]
+]
