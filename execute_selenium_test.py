@@ -122,8 +122,13 @@ while True:
         break
         
     if strX == "r":
-        openf = open(INPUTFILE, 'r')
-        json_load = json.load(openf)
+        try:
+            openf = open(INPUTFILE, 'r')
+            json_load = json.load(openf)
+        except Exception as err:
+            print('Exception ' + strX)
+            print(err)
+        
         continue
     
     if strX == "x":
